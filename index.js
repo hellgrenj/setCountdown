@@ -14,8 +14,8 @@ exports.setCountdown = function(task,waitTime,token,countDownInterval){
 function countDown(time, value,token){
   setTimeout(function(){
     process.stdout.clearLine();
-    var dots = new Array(value).join(token);
-    process.stdout.write(dots + '\r');
+    var tokens = new Array(value).join(token);
+    process.stdout.write(tokens + '\r');
   },time);
 }
 function execute(time, task){
