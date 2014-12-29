@@ -5,7 +5,7 @@ exports.setCountdown = function(task,waitTime,token,countDownInterval){
   var numberOfCounts = waitTime / countDownInterval;
   for(var i=numberOfCounts; i >= 0; i--){
     if(i == numberOfCounts){
-      execute(waitTime,task,i);
+      execute(waitTime,task);
     }else{
       countDown((i+1)*countDownInterval,numberOfCounts - i,token);
     }

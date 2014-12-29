@@ -1,6 +1,6 @@
 {
   "name": "setcountdown",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "simple console.log countdown for your node script",
   "main": "index.js",
   "scripts": {
