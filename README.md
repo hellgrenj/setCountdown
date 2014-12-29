@@ -3,7 +3,7 @@ setCountdown
 simple console.log countdown for your node script
 
 
-`npm install setCountdown --save`
+`npm install setcountdown --save`
 ##Usage
 ```
 var countdownToken = '///';
