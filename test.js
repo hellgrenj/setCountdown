@@ -1,3 +1,6 @@
+/*jshint node:true */
+"use strict";
+
 var countdownToken = '....';
 var countdownInterval = 500;
 
