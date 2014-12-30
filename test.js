@@ -1,4 +1,4 @@
-var countdownToken = '///';
+var countdownToken = '....';
 var countdownInterval = 500;
 
 var timer = require('./index');
