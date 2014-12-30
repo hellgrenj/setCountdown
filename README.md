@@ -1,10 +1,10 @@
-setCountdown
+setcountdown
 =========================
-simple console.log countdown for your node script
+setTimeout with simple stdout.write countdown for your node script
 
 
 `npm install setcountdown --save`
-##Usage
+##usage
 ```
 var countdownToken = '///';
 var countdownInterval = 500;

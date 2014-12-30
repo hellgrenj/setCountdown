@@ -1,7 +1,7 @@
 {
   "name": "setcountdown",
-  "version": "0.0.7",
-  "description": "simple console.log countdown for your node script",
+  "version": "0.0.8",
+  "description": "setTimeout with simple stdout.write countdown for your node script",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
