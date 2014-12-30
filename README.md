@@ -14,4 +14,4 @@ timer.setCountdown(function(){
   console.log('ready to go!');
 },5000,countdownToken,countdownInterval);
 ```
-countdownInterval is optional and default to 1000 (1 second)
+countdownInterval is optional and defaults to 1000 (1 second)
