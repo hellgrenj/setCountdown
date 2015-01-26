@@ -1,6 +1,6 @@
 {
   "name": "setcountdown",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "setTimeout with simple stdout.write countdown for your node script",
   "main": "index.js",
   "scripts": {
