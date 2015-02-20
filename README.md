@@ -5,7 +5,7 @@ setTimeout with simple stdout.write countdown for your node script
 
 `npm install setcountdown --save`
 
-##usage
+## usage
 
 ```
 var countdownToken = '///';
