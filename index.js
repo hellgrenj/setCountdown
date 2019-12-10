@@ -1,6 +1,8 @@
 /*jshint node:true */
 "use strict";
 
+var readline = require('readline');
+
 if (parseInt(process.version.substr(1, 1)) > 3) {
     var readline = require('readline');
     process.stdout.clearLine = function() {
@@ -29,7 +31,7 @@ exports.setCountdown = function(task, waitTime, token, countDownInterval) {
 
 function countDown(time, value, token) {
     setTimeout(function() {
-        process.stdout.clearLine();
+        readline.clearLine(process.stdout, 0);
         var tokens = new Array(value).join(token);
         process.stdout.write(tokens + '\r');
     }, time);
@@ -37,7 +39,7 @@ function countDown(time, value, token) {
 
 function execute(time, task) {
     setTimeout(function() {
-        process.stdout.clearLine();
+        readline.clearLine(process.stdout, 0);
         task();
     }, time);
 }
